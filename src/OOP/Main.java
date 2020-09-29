@@ -14,8 +14,7 @@ public class Main {
         String str = new String("tanvir");
         String str2 = "tanvir";
 
-        str.equals(str2);
-        str.intern();
+        System.out.println(str);
 
 
 

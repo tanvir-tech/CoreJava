@@ -9,7 +9,7 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
-
+//Java inbuilt libraries support only AIFC, AIFF, AU, SND and WAVE formats.
 public class SimpleAudioPlayer
 {
 
@@ -45,7 +45,7 @@ public class SimpleAudioPlayer
     {
         try
         {
-            filePath = "src/Music_player/Dil_Tera_Hogaya.wav";
+            filePath = "C:\\Users\\tanvi\\IdeaProjects\\testWeb\\CoreJava\\src\\Music_player\\Dil_Tera_Hogaya.wav";
             SimpleAudioPlayer audioPlayer = new SimpleAudioPlayer();
 
             audioPlayer.play();
