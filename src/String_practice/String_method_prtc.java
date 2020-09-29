@@ -5,12 +5,14 @@ public class String_method_prtc {
         String s1 = "tanvir";
         String s2 = new String("I love java");
 
-        System.out.println(s2.lastIndexOf("java"));
+        System.out.println(s2.lastIndexOf("java"));                  // lastIndexOf()
+        System.out.println(s2.indexOf("java"));                         // firstIndexof()
 
-        String[] strr = s2.split(" ");          // split into String array obj. in heap
+        String[] strr = "hi this is test string".split(" ");          // split into String array obj. in heap
         for (String s : strr) {
             System.out.println(s);
         }
+
 
 
 
