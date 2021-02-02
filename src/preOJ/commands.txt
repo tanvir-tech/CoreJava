@@ -1,0 +1,4 @@
+E:
+cd test
+javac demo.java
+java demo

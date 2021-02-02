@@ -1,0 +1,10 @@
+Microsoft Windows [Version 10.0.18363.1316]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\tanvi\IdeaProjects\CoreJava>E:
+
+E:\>cd test
+
+E:\test>javac demo.java
+
+E:\test>More? 
