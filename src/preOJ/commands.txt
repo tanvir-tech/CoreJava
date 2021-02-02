@@ -1,4 +1,4 @@
-E:
-cd test
+chdir /d E:\test
 javac demo.java
 java demo
+echo tanvir-this is closing line
