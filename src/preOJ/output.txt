@@ -6,6 +6,10 @@ C:\Users\tanvi\IdeaProjects\CoreJava>chdir /d E:\test
 E:\test>javac demo.java
 
 E:\test>java demo
-Online judge running
+Online judge Running.......... Result=
+7
+
+E:\test>echo stop-run
+stop-run
 
 E:\test>More? 
