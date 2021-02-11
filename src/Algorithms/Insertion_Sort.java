@@ -6,7 +6,7 @@ public class Insertion_Sort {
         int size = array.length;
 
         for (int step = 1; step < size; step++) {
-            int key = array[step];
+            int key = array[step];                       //    key => newly inserted number of array
             int j = step - 1;
 
             // Compare key with each element on the left of it until an element smaller than it is found.
