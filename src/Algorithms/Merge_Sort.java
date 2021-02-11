@@ -27,6 +27,8 @@ public class Merge_Sort {
 
         // Initial index of merged subarry array
         int k = l;
+
+        //selecting and inserting to main array for sorting purpose
         while (i < n1 && j < n2) {
             if (L[i] <= R[j]) {
                 arr[k] = L[i];
