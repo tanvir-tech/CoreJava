@@ -1,4 +1,4 @@
-package Collection_practice;
+package Collection_practice.List_3_types;
 
 import java.util.ArrayList;
 import java.util.Iterator;
