@@ -1,12 +1,12 @@
 package preOJ;
 // Java program to demonstrate use of ProcessBuilder
 // to compile and run external files.
+
 import java.util.*;
 import java.io.*;
-class Main
-{
-    public static void main(String [] args) throws IOException
-    {
+
+class Main {
+    public static void main(String[] args) throws IOException {
         try {
             // create a process
             ProcessBuilder pb = new ProcessBuilder("cmd");
@@ -28,11 +28,9 @@ class Main
             // start the process
             Process process = pb.start();
             int exitvalue = process.waitFor();
-            System.out.println("Process finished with exit value "+exitvalue);
+            System.out.println("Process finished with exit value " + exitvalue);
 
-        }
-        catch(Exception e)
-        {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

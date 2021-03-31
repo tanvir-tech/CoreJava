@@ -12,7 +12,8 @@ public class Demo {
         String userName = "root";
         String passWord = "";
 
-        String Query = "SELECT * FROM student";
+        //DML
+        String Query = "SELECT * FROM student WHERE id=18043";
 
         Class.forName("com.mysql.jdbc.Driver");
         Connection connection = DriverManager.getConnection(url,userName,passWord);
