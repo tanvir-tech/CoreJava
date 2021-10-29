@@ -1,8 +1,7 @@
-package preOJ;
+package short_Projects.preOJ;
 // Java program to demonstrate use of ProcessBuilder
 // to compile and run external files.
 
-import java.util.*;
 import java.io.*;
 
 class Main {
@@ -12,13 +11,13 @@ class Main {
             ProcessBuilder pb = new ProcessBuilder("cmd");
 
             // take all commands as input in a text file
-            File commands = new File("C:\\Users\\tanvi\\IdeaProjects\\CoreJava\\src\\preOJ\\commands.txt");
+            File commands = new File("C:\\Users\\tanvi\\IdeaProjects\\CoreJava\\src\\short_Projects.preOJ\\commands.txt");
 
             // File where error logs should be written
-            File error = new File("C:\\Users\\tanvi\\IdeaProjects\\CoreJava\\src\\preOJ\\error.txt");
+            File error = new File("C:\\Users\\tanvi\\IdeaProjects\\CoreJava\\src\\short_Projects.preOJ\\error.txt");
 
             // File where output should be written
-            File output = new File("C:\\Users\\tanvi\\IdeaProjects\\CoreJava\\src\\preOJ\\output.txt");
+            File output = new File("C:\\Users\\tanvi\\IdeaProjects\\CoreJava\\src\\short_Projects.preOJ\\output.txt");
 
             // redirect all the files
             pb.redirectInput(commands);

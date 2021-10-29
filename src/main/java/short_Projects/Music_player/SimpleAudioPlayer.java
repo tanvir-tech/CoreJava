@@ -1,4 +1,4 @@
-package Music_player;// Java program to play an Audio
+package short_Projects.Music_player;// Java program to play an Audio
 // file using Clip Object 
 import java.io.File;
 import java.io.IOException;
@@ -45,7 +45,7 @@ public class SimpleAudioPlayer
     {
         try
         {
-            filePath = "C:\\Users\\tanvi\\IdeaProjects\\testWeb\\CoreJava\\src\\Music_player\\Dil_Tera_Hogaya.wav";
+            filePath = "C:\\Users\\tanvi\\IdeaProjects\\testWeb\\CoreJava\\src\\short_Projects.Music_player\\Dil_Tera_Hogaya.wav";
             SimpleAudioPlayer audioPlayer = new SimpleAudioPlayer();
 
             audioPlayer.play();
