@@ -7,6 +7,7 @@ public class ThreadCreate {
         MyThread t1 = new MyThread();
         t1.setName("Child 01");
         t1.start();
+        //t1.runningState = false;
 
 
         //implements
@@ -31,5 +32,6 @@ public class ThreadCreate {
         });
         t4.setName("Child 04");
         t4.start();
+
     }
 }
